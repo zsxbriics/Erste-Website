@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>zSxbriics - Code</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <nav class="navbar">
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+            </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projekte">Projekte</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#kontakt">Kontakt</a></li>
+            <li><a href="#discord">Discord</a></li>
+        </ul>
+        <button class="menu-toggle" id="menu-toggle">☰</button>
+        <button id="theme-toggle">🌙</button>
+    </nav>
+
+    <section id="home" class="hero">
+        <h1>Hi, ich bin zSxbriics</h1>
+        <p>Ich lerne gerade Software Entwicklung.</p>
+    </section>
+
+    <section id="projekte" class="projects">
+        <h2 class="fade-in">Meine Projekte</h2>
+        <div class="project-grid">
+            <div class="project-card fade-in">
+                <h3>Todo-Liste</h3>
+                <p>Ein Kommandozeilen-Tool mit grafischer Oberfläche zur Aufgabenverwaltung, inklusive dauerhafter Speicherung.</p>
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Tkinter</span>
+                    <span class="tag">JSON</span>
+                </div>
+                <a href="#" class="card-button" data-projekt="todo">Ansehen</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Passwort Generator</h3>
+                <p>Generiert sichere, zufällige Passwörter mit einstellbaren Option</p>
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">CustomTkinter</span>
+                </div>
+                <a href="#" class="card-button" data-projekt="passwort">Ansehen</a>
+            </div>
+
+            <div class="project-card fade-in">
+                <h3>Discord Bot</h3>
+                <p>Ein umfangreicher Bot mit Ticket System, Reaction Roles, Willkommensnachricht</p>
+                <div class="tech-tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">discord.py</span>
+                </div>
+                <a href="#" class="card-button" data-projekt="bot">Ansehen</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="fade-in">Über mich</h2>
+        <p class="fade-in">Hi, ich bin Sebastian – ich lerne seit Kurzem Programmieren und tauche seitdem mit voller
+        Begeisterung in die Softwareentwicklung ein. Angefangen habe ich mit Python, wo ich mittlerweile
+        von kleinen Konsolen-Tools über grafische Anwendungen mit Tkinter bis hin zu einem umfangreichen
+        Discord-Bot mit Ticket-System und Slash-Commands so einiges umgesetzt habe. Aktuell erweitere ich
+        mein Wissen um Webentwicklung mit HTML, CSS und JavaScript – genau diese Seite hier ist mein erstes
+        größeres Projekt in dem Bereich. Mich treibt vor allem die Freude am Ausprobieren an: Ich lerne am
+        liebsten, indem ich direkt eigene Projekte baue, Fehler mache und daraus verstehe, wie die Dinge
+        wirklich funktionieren.</p>
+        <div class="skills-grid fade-in">
+        <div class="skill-item">
+            <span class="skill-icon">🐍</span>
+            <span>Python</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-icon">🖥️</span>
+            <span>Tkinter</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-icon">🤖</span>
+            <span>discord.py</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-icon">🌐</span>
+            <span>HTML/CSS</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-icon">⚡</span>
+            <span>JavaScript</span>
+        </div>
+        <div class="skill-item">
+            <span class="skill-icon">📦</span>
+            <span>Git</span>
+        </div>
+    </div>
+</section>
+
+    <section id="kontakt" class="contact">
+        <h2 class="fade-in">Kontakt</h2>
+        <p class="fade-in">Hier kannst du mich erreichen</p>
+
+        <div class="contact-grid fade-in">
+            <a href="mailto:coreliferp@gmail.com" class="contact-item">
+                <span class="skill-icon">📧</span>
+                <span>E-Mail</span>
+            </a>
+            <a href="https://github.com/Sxbriics-TV" target="_blank" rel="noopener noreferrer" class="contact-item">
+                <span class="skill-icon">💻</span>
+                <span>GitHub</span>
+            </a>
+            <a href="#discord" class="contact-item">
+                <span class="skill-icon">💬</span>
+                <span>Discord</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="discord" class="discord">
+        <h2 class="fade-in">Discord</h2>
+        <p class="fade-in">Hier ist mein Community Discord</p>
+        <iframe src="https://discord.com/widget?id=1549862064791490700&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+    </section>
+        <footer>
+            <p>&copy; 2026 Sebastian</p>
+        </footer>
+
+        <div id="project-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button class="modal-close">&times;</button>
+        <img id="modal-image" src="" alt="">
+        <h3 id="modal-title"></h3>
+        <p id="modal-description"></p>
+        <div class="tech-tags" id="modal-tags"></div>
+
+        <h4>Über das Projekt</h4>
+        <p id="modal-details"></p>
+
+        <h4>Herausforderungen</h4>
+        <p id="modal-herausforderungen"></p>
+
+        <a href="#" id="modal-download" class="modal-download-button" target="_blank" rel="noopener noreferrer">Download</a>
+</div>
+</div>
+        
+        <script src="script.js"></script>
+</body>
+</html>
