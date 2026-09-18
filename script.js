@@ -60,7 +60,7 @@ const projekte = {
         titel: "Todo-Liste",
         beschreibung: "Ein Kommandozeilen-Tool mit grafischer Oberfläche zur Aufgabenverwaltung.",
         tags: ["Python", "Tkinter", "JSON"],
-        download: "https://github.com/Sxbriics-TV/Todo-Liste/tree/main",
+        download: "https://github.com/zsxbriics/Todo-Liste",
         bild: "images/todo/todo.png",
         details: "Mein erstes richtiges Python-Projekt. Begonnen als einfaches Kommandozeilen-Tool mit Grundfunktionen wie Hinzufügen, Löschen und Markieren, später erweitert um dauerhafte Speicherung mit JSON und schließlich in eine grafische Oberfläche mit Tkinter umgewandelt.",
         herausforderungen: "Die größte Herausforderung war der Umgang mit Fehlerbehandlung (z.B. bei ungültigen Eingaben) und das Verständnis dafür, wie man Daten dauerhaft zwischen Programmstarts speichert."
@@ -69,7 +69,7 @@ const projekte = {
         titel: "Passwort-Generator",
         beschreibung: "Generiert sichere, zufällige Passwörter mit einstellbaren Optionen.",
         tags: ["Python", "CustomTkinter"],
-        download: "https://github.com/Sxbriics-TV/Passwort-Generator",
+        download: "https://github.com/zsxbriics/Passwort-Generator",
         bild: "images/pwgen/pwgen.png",
         details: "Ein Tool zur Generierung sicherer Passwörter mit modernem Design. Nutzt das random-Modul für echte Zufälligkeit und bietet anpassbare Optionen wie Länge und Sonderzeichen.",
         herausforderungen: "Besonders spannend war die Umstellung von normalem Tkinter auf CustomTkinter für ein moderneres Design, sowie das Verpacken zu einer eigenständigen .exe-Datei mit eingebettetem Icon."
@@ -78,7 +78,7 @@ const projekte = {
         titel: "Discord-Bot",
         beschreibung: "Ein umfangreicher Bot mit Ticket-System, Reaction Roles und mehr.",
         tags: ["Python", "discord.py"],
-        download: "https://github.com/Sxbriics-TV/Discord-Bot",
+        download: "https://github.com/zsxbriics/Discord-Bot",
         bild: "images/dcbot/dcbot.png",
         details: "Ein vollwertiger Discord-Bot mit Slash-Commands, automatischer Willkommensnachricht, Rollenvergabe per Reaction, und einem kompletten Ticket-System mit Claim-Funktion.",
         herausforderungen: "Das Arbeiten mit asynchronem Code (async/await) war komplett neu. Besonders das Debugging von Discord-spezifischen Eigenheiten wie fehlenden OAuth-Scopes und der Rollen-Hierarchie hat viel Geduld gebraucht."
