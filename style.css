@@ -76,7 +76,7 @@ body::before {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: rgba(15, 20, 32, 0.7);
+    background-color: rgba(--nav-bg);
     backdrop-filter: blur(10px);
     z-index: 1000;
 }
