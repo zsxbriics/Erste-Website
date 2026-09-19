@@ -82,6 +82,15 @@ const projekte = {
         bild: "images/dcbot/dcbot.png",
         details: "Ein vollwertiger Discord-Bot mit Slash-Commands, automatischer Willkommensnachricht, Rollenvergabe per Reaction, und einem kompletten Ticket-System mit Claim-Funktion.",
         herausforderungen: "Das Arbeiten mit asynchronem Code (async/await) war komplett neu. Besonders das Debugging von Discord-spezifischen Eigenheiten wie fehlenden OAuth-Scopes und der Rollen-Hierarchie hat viel Geduld gebraucht."
+    },
+    ctktodo: {
+        titel: "CTk - ToDo - List",
+        beschreibung: "Ein einfaches aber umfangreiches ToDo Listen System mit Filtern, Aktiven / Inaktiven ToDo's, Kategorien uvm.",
+        tags: ["Python", "CustomTkinter"],
+        download: "https://github.com/zsxbriics/ToDo-List-CTk-",
+        bild: "images/todo/todo1.png",
+        details: "Das ist die erste Version der Todo-Listen-App. Du kannst Todos mit einer optionalen Beschreibung anlegen und ihnen eine Priorität und eine Kategorie geben. Aktive und erledigte Todos werden in getrennten Tabs angezeigt, und über einen Filter lässt sich die Liste nach Kategorie einschränken. Todos können bearbeitet und gelöscht werden, und alles wird automatisch gespeichert.",
+        herausforderungen: "Die größte Hürde war, dass die App auch mit älteren Daten weiterlaufen muss. Neue Felder wie die Kategorie fehlten in bereits gespeicherten Todos und führten zu Abstürzen, bis ich gelernt habe, mit Standardwerten zu arbeiten. Dazu kamen der feste Speicherort im AppData-Ordner, damit die Todos auch in der fertigen .exe erhalten bleiben, und das Layout mit grid, bei dem schon kleine Fehler bei Zeile und Spalte das ganze Fenster durcheinanderbringen. Beim Bauen der .exe mit PyInstaller musste ich außerdem dafür sorgen, dass Logo und Design-Dateien mit eingepackt werden."
     }
 };
 
